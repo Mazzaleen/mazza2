@@ -36,7 +36,7 @@ const About: FC = () => {
                 value to answer business needs with technology.
               </p>
             </Fade>
-            <a download="" href={CV} className="button button--flex">
+            <a href={CV} target="_blank" className="button button--flex">
               See Resume
               {"  "}
               <svg

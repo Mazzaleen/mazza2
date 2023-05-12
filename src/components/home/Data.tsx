@@ -59,11 +59,11 @@ const Data: FC = () => {
         </h1>
       </Rotate>
       <Fade triggerOnce>
-        <h3 className="home__subtitle">Aspiring Software Engineer and Product Manager! </h3>
+        <h3 className="home__subtitle">Aspiring Software Engineer and Product Manager </h3>
       </Fade>
       <Fade delay={300} triggerOnce>
         <p className="home__description">
-        Welcome! My name is Mazine Sami Suliman and I am a senior at 
+        Welcome! My name is Mazine Sami Mohammed Ahmed Suliman and I am a senior at 
         Brown studying Computer Science and Economics. 
         I am first-generation Sudanese-American, originally from Khartoum, Sudan.
         In my spare time, I love to watch soccer, sample perfumes, and watch video-game speedruns. 
