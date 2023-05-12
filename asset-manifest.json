@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mazza2/static/css/main.6d353bfd.css",
+    "main.js": "/mazza2/static/js/main.fa7be850.js",
+    "static/media/IMG_6996.png": "/mazza2/static/media/IMG_6996.a3bce1e1b98008285c22.png",
+    "static/media/happy-sun.png": "/mazza2/static/media/happy-sun.80bc60b8209097627fc3.png",
+    "static/media/My_Resume.pdf": "/mazza2/static/media/My_Resume.5eefb268d163ff856f2e.pdf",
+    "index.html": "/mazza2/index.html",
+    "main.6d353bfd.css.map": "/mazza2/static/css/main.6d353bfd.css.map",
+    "main.fa7be850.js.map": "/mazza2/static/js/main.fa7be850.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d353bfd.css",
+    "static/js/main.fa7be850.js"
+  ]
+}
