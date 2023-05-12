@@ -34,7 +34,7 @@ const Header: FC = () => {
         >
           <img src={require("../assets/favi.png")} alt="logo" />
         </a>
-        <a href="/my-portfolio/" className="nav__logo">
+        <a href="https://mazzaleen.github.io/mazza2/" className="nav__logo">
           Mazine Suliman
         </a>
 
