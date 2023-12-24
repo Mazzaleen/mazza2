@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mazza2/static/css/main.f7fe4f95.css",
+    "main.js": "/mazza2/static/js/main.b20837fc.js",
+    "static/media/IMG_6996.png": "/mazza2/static/media/IMG_6996.a3bce1e1b98008285c22.png",
+    "static/media/happy-sun.png": "/mazza2/static/media/happy-sun.80bc60b8209097627fc3.png",
+    "index.html": "/mazza2/index.html",
+    "main.f7fe4f95.css.map": "/mazza2/static/css/main.f7fe4f95.css.map",
+    "main.b20837fc.js.map": "/mazza2/static/js/main.b20837fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7fe4f95.css",
+    "static/js/main.b20837fc.js"
+  ]
+}
