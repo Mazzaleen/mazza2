@@ -23,21 +23,26 @@ const About: FC = () => {
             <Info />
             <Fade direction="right" triggerOnce>
               <p className="about__description">
-                University graduate seeking entry-level employment within
-                software engineering and product management areas.
-                
-                Graduated from Brown University with a Bachelor of Science
-                in Computer Science and Economics (Professional Track). 
+              🎓 Graduated from Brown University with a Bachelor of Science in Computer Science and Economics (Professional Track) 🎓
+              </p>
 
-                Previously interned at Salesforce as a Software Engineer Intern, 
-                working on the Marketing Cloud (Calculated Insights) team.
 
-                Excited to contribute to a team, continue learning, and add
-                value to answer business needs with technology.
+              <p className="about__description">
+              💼 Previously interned at Salesforce as a Software Engineer Intern, working on the Marketing Cloud (Calculated Insights) team💼 
+              </p>
+
+              <p className="about__description">
+              🚀 Prior to that completed IBM's Software Accelerate Program and worked as a web developer for the environmental council of Rhode Island🚀 
+              </p>
+
+              
+
+              <p className="about__description">
+              🍏 Currently working as a Software Engineer at Apple. Working on Apple's software beta program 🍏
               </p>
             </Fade>
-            <a href={CV} target="_blank" className="button button--flex">
-              See Resume
+            <a href= "https://docs.google.com/document/d/1j_7sPFPNJxI-GZs7f7adVEc09l9WN6L1/edit" target="_blank" className="button button--flex">
+              See My Most Recent Resume!
               {"  "}
               <svg
                 className="button__icon"

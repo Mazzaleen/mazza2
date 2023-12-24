@@ -1,105 +1,86 @@
 import React from "react";
 
-const BackEnd: React.FC = () => {
+const ProductManagement: React.FC = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Backend Development</h3>
+      <h3 className="skills__title">Product Management</h3>
       <div className="skills__box">
         <div className="skills__group">
-          {/* Existing Skills */}
+          {/* Balsamiq */}
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Node.js</h3>
+              <h3 className="skills__name">Balsamiq</h3>
               <span className="skills__level">Beginner</span>
             </div>
           </div>
 
-          {/* Python remains at its original skill level */}
+          {/* Figma */}
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Python</h3>
-              <span className="skills__level">Advanced</span>
-            </div>
-          </div>
-
-          {/* New Skills */}
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Ruby</h3>
+              <h3 className="skills__name">Figma</h3>
               <span className="skills__level">Beginner</span>
             </div>
           </div>
 
-          {/* Additional New Skills */}
-          {/* ... (Continue with other existing skills, if any) ... */}
+          {/* JIRA */}
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">JIRA</h3>
+              <span className="skills__level">Beginner</span>
+            </div>
+          </div>
         </div>
 
         <div className="skills__group">
-          {/* More New Skills */}
+          {/* Confluence */}
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Ruby on Rails</h3>
-              <span className="skills__level">Beginner</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Kubernetes</h3>
-              <span className="skills__level">Beginner</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Cassandra</h3>
-              <span className="skills__level">Beginner</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Splunk</h3>
-              <span className="skills__level">Beginner</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Go</h3>
-              <span className="skills__level">Beginner</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">SQL</h3>
+              <h3 className="skills__name">Confluence</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
+          {/* Greenhouse */}
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Django</h3>
+              <h3 className="skills__name">Greenhouse</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          {/* Additional Tools for Product Managers
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Asana</h3>
               <span className="skills__level">Beginner</span>
             </div>
           </div>
 
-          {/* ... (Include any other skills as needed) ... */}
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Trello</h3>
+              <span className="skills__level">Beginner</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Roadmunk</h3>
+              <span className="skills__level">Beginner</span>
+            </div> </div> */}
+
         </div>
       </div>
     </div>
   );
 };
 
-export default BackEnd;
+export default ProductManagement;

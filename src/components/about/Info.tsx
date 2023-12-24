@@ -10,13 +10,13 @@ const Info: React.FC = () => {
       </div>
       <div className="about__box">
         <i className="fa fa-briefcase about__icon"></i>
-        <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">10 + Projects</span>
+        <h3 className="about__title">Previously</h3>
+        <span className="about__subtitle">Salesforce, IBM,</span>
       </div>
       <div className="about__box">
         <i className="fa fa-headphones about__icon"></i>
         <h3 className="about__title">Interested In</h3>
-        <span className="about__subtitle">SWE, PM & Consulting Opportunites</span>
+        <span className="about__subtitle">SWE, PM and EPM </span>
       </div>
     </div>
   );

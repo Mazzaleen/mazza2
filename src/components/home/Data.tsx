@@ -59,7 +59,7 @@ const Data: FC = () => {
         </h1>
       </Rotate>
       <Fade triggerOnce>
-        <h3 className="home__subtitle">Aspiring Software Engineer and Product Manager </h3>
+        <h3 className="home__subtitle">Software Engineer @ Apple</h3>
       </Fade>
       <Fade delay={300} triggerOnce>
         <p className="home__description">
@@ -69,8 +69,9 @@ const Data: FC = () => {
         In my spare time, I love to watch soccer, sample perfumes, and watch video-game speedruns. 
         </p>
       </Fade>
+
       <Fade delay={600} triggerOnce>
-        <Link to="contact" className="button button--flex">
+        <a href="https://www.linkedin.com/in/mazine-s-suliman/" className="button button--flex">
           Say Hi!
           {"  "}
           <svg
@@ -90,7 +91,7 @@ const Data: FC = () => {
               fill="var(--container-color)"
             ></path>
           </svg>
-        </Link>
+        </a>
       </Fade>
     </div>
   );

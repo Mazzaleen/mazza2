@@ -80,7 +80,7 @@ export interface positionType {
 },
 
 {
-  id: 7,
+  id: 8,
   position_title: 'Software Engineering Intern',
   company: 'Salesforce (Marketing Cloud)',
   location: ['San Francisco', 'CA'],
@@ -91,18 +91,18 @@ export interface positionType {
 },
 
 {
-  id: 8,
+  id: 9,
   position_title: 'Tech Fellow',
   company: 'Bloomberg LP',
   location: ['New York City', 'NY'],
-  image:"https://media.licdn.com/dms/image/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/0/1531146047122?e=1692230400&v=beta&t=ujtEQPgCAYiQNrDniuxZW3sAbYNrTui3AWi4YKFhGPY",
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png",
   dates: ['Nov 2022', 'Dec 2022'],
   website: 'https://www.techatbloomberg.com/',
   linkedin: 'https://www.linkedin.com/company/bloomberg/'
 },
 
 {
-  id: 9,
+  id: 7,
   position_title: 'Head Teaching Assistant- CSCIO01870',
   company: 'Brown University',
   location: ['Providence', 'RI'],
@@ -115,12 +115,12 @@ export interface positionType {
 {
   id: 10,
   position_title: 'Software Engineer',
-  company: 'Gap Inc. (GapTech)', 
-  location: ['San Francisco', 'CA'],
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gap_logo.svg/2048px-Gap_logo.svg.png",
-  dates: ['Sep 2023', 'Offer Rescinced due to layoffs in May 2023'],
-  website: 'https://www.gapinc.com/en-us/careers/student-and-recent-grads/gaptech-rotational-program',
-  linkedin: 'https://www.linkedin.com/company/gap-inc-/'
+  company: 'Apple', 
+  location: ['Cupertino', 'CA'],
+  image: "https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo-768x432.png",
+  dates: ['Dec 2023', 'Current'],
+  website: 'https://beta.apple.com/',
+  linkedin: 'https://www.linkedin.com/company/apple/'
 },
 
 

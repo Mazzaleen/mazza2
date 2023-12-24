@@ -35,10 +35,4 @@ export const listNavBar: TypeNavbar[] = [
     icon: "uil uil-briefcase-alt",
     href: "projects",
   },
-  {
-    id: 6,
-    item: "Contact",
-    icon: "uil uil-envelope",
-    href: "contact",
-  },
 ];

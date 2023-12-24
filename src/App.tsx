@@ -36,7 +36,6 @@ const App: React.FC = () => {
           <Skills />
           <Qualification />
           <Projects />
-          <Contact />
         </main>
         <Footer />
         <ScrollUp />
