@@ -28,17 +28,17 @@ const About: FC = () => {
 
 
               <p className="about__description">
-              💼 Previously interned at Salesforce as a Software Engineer Intern, working on the Marketing Cloud (Calculated Insights) team💼 
+              💼 Previously interned at Salesforce as a Software Engineer Intern, working on the Marketing Cloud (Calculated Insights) team💼
               </p>
 
               <p className="about__description">
-              🚀 Prior to that completed IBM's Software Accelerate Program and worked as a web developer for the environmental council of Rhode Island🚀 
+              🚀 Prior to that completed IBM's Software Accelerate Program and worked as a web developer for the environmental council of Rhode Island🚀
               </p>
 
-              
+
 
               <p className="about__description">
-              🍏 Currently working as a Software Engineer at Apple. Working on Apple's software beta program 🍏
+              🍏 Currently working as a Software Engineer at Apple. Working on the bugs behind the bugs! 🍏
               </p>
             </Fade>
             <a href= "https://docs.google.com/document/d/1j_7sPFPNJxI-GZs7f7adVEc09l9WN6L1/edit" target="_blank" className="button button--flex">

@@ -1,25 +1,45 @@
-# Welcome to my Portfolio Site !!
+# Personal Portfolio Website
 
-### React App with Typescript
+This is the source code for my personal portfolio website, built using TypeScript. The site showcases my work, projects, and skills, providing a platform to highlight my professional background and experiences
 
-### Pure CSS
+## Features
 
-### Metrial I cons
+- **Responsive Design**: Optimized for various screen sizes and devices.
+- **Interactive UI**: Smooth transitions, animations, and interactivity for an engaging user experience. In addition to dark mode functionality
+- **Project Showcase**: Displays details about my projects, including descriptions, technologies used, and links to live demos or repositories.
+- **Contact Form**: A simple form to allow visitors to reach out to me directly.
 
-### good hooks Management
+## Technologies Used
 
-### Create Context API
+- **Frontend**: TypeScript, React, and Material-UI
+- **Styling**: [CSS Modules, SASS, Tailwind CSS]
+- **Deployment**: [npm, GitHub Pages, etc.]
 
-### EmailJs to receive emails through their API
+## Getting Started
 
-### Dark-Mode functionality
+### Prerequisites
 
-### Code easy to read
+Make sure you have the following tools installed:
 
-### Push code to GitHub and deploy.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-### For deployment :
+### Installation
 
-```
- "deploy": "npm run build && gh-pages -d build"
-```
+1. **Clone the repository:**
+
+   ```bash
+   gh repo clone Mazzaleen/mazza2
+   cd your-portfolio
+2. **Install any depeendencies**
+    ```
+    npm install
+    ```
+2. **Run build**
+    ```
+    npm run build
+
+    ```
+
+
+
