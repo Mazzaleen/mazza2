@@ -24,7 +24,7 @@ Make sure you have the following tools installed:
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-### Installation
+### Running Locally
 
 1. **Clone the repository:**
 
@@ -35,10 +35,9 @@ Make sure you have the following tools installed:
     ```
     npm install
     ```
-2. **Run build**
+2. **Run build locally**
     ```
-    npm run build
-
+    npm start
     ```
 
 
