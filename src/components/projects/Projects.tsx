@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
       </Slide>
       <Slide direction="right" triggerOnce>
         <span className="section__subtitle">
-          A curated collection of my Academic and Personal Projects
+          A curated collection of my Academic & Personal Projects in engineering & product
         </span>
       </Slide>
 
@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
         className="projects__container"
         loop={true}
         grabCursor={true}
-   
+
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         slidesPerView={3}
         spaceBetween={24}

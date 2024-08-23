@@ -39,7 +39,7 @@ export const projectsData: projectsType[] = [
     {
         id:2,
         title: 'Panda',
-        description: `Multiplayer card game inspired by PANDA GAMES LTD. Utilized React,Java and Bootstrap to host.`,
+        description: `Multiplayer card game inspired by PANDA GAMES LTD. Utilized React,Java & Bootstrap to host.`,
         image: panda,
         GitHub: 'https://github.com/Mazzaleen/Panda-Card-Game',
         hosted: `https://www.figma.com/file/y6FxyVlCW27pOOFsfNyEGB/Panda?t=t5GRK70BX92yQTbp-0`,
@@ -49,7 +49,7 @@ export const projectsData: projectsType[] = [
       {
         id: 3,
         title: 'C(T)inder',
-        description: `Utilized Figma, Adobe and Flutter to design a Tinder-like app for CS Classes`,
+        description: `Utilized Figma, Adobe & Flutter to design a Tinder-like app for CS Classes`,
         image: cinder,
         GitHub: '',
         hosted: 'https://www.figma.com/proto/fPEXAQZC55DWDLeRb2bE0U/Tinder-for-CS-Classes?node-id=1%3A3&starting-point-node-id=1%3A3',
@@ -72,13 +72,13 @@ export const projectsData: projectsType[] = [
         GitHub: 'https://github.com/Mazzaleen/Model-Checking',
         hosted: 'https://github.com/Mazzaleen/Model-Checking',
 
-    
+
       },
 
       {
         id: 6,
         title: 'Captured by Candy!',
-        description: `Utilized Pyret, gamestates and reactor data structures to create 2D maze game.`,
+        description: `Utilized Pyret, gamestates & reactor data structures to create 2D maze game.`,
         image: candy,
         GitHub: 'https://github.com/Mazzaleen/CapturedbyCandy',
         hosted: '',
@@ -88,7 +88,7 @@ export const projectsData: projectsType[] = [
       {
         id: 7,
         title: 'Brown University Dining IOS Widget',
-        description: `Web-Scrapper that extracts dining menu form BDS's website and displays it on IOS Widget. 
+        description: `Web-Scrapper that extracts dining menu form BDS's website & displays it on IOS Widget.
         Utilizes Vercel Cherrio Library & Scriptable to host.`,
         image: bds,
         GitHub: 'https://github.com/Mazzaleen/Search-Engine',
@@ -122,7 +122,7 @@ export const projectsData: projectsType[] = [
             GitHub: 'https://github.com/cs0320-f2021/project-2-j3ki5yekdmc8thpw%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-vruz5ljs9axixjk-y8meruyacyxuecby',
             hosted: 'https://github.com/cs0320-f2021/project-2-j3ki5yekdmc8thpw%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-vruz5ljs9axixjk-y8meruyacyxuecby',
         },
-            
+
 
         {
             id: 11,
@@ -163,16 +163,16 @@ export const projectsData: projectsType[] = [
         {
             id: 15,
             title: 'Old Website',
-            description: "Personal website created to showcase portfolio, utilizes Bootstrap, JavaScript, HTML and CSS. Utilizes GitHub Pages to host",
+            description: "Personal website created to showcase portfolio, utilizes Bootstrap, JavaScript, HTML & CSS. Utilizes GitHub Pages to host",
             image: old,
             GitHub: 'https://github.com/Mazzaleen/mazza',
             hosted: 'https://mazzaleen.github.io/mazza/',
 
 
         }
-    
-      
 
-    
+
+
+
 
         ]

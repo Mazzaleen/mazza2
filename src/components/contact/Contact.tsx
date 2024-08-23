@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
         <h2 className="section__title">How to contact</h2>
       </Slide>
       <Slide direction="right" triggerOnce>
-        <span className="section__subtitle"> I always respond fastest on Gmail and Linkedin! </span>
+        <span className="section__subtitle"> I always respond fastest on Gmail & Linkedin! </span>
       </Slide>
 
       <div className="contact__container container grid">

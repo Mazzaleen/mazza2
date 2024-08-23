@@ -65,7 +65,7 @@ const Data: FC = () => {
         <p className="home__description">
         Hi! I'm Mazine, a Software Engineer at Apple with a deep passion for product management.
         From optimizing customer feedback systems at Apple to leading cross-functional teams as a Product Manager at FSB, I strive to solve the heart of user-centered problems.
-        My journey from engineering to product management is driven by a desire to create intuitive and impactful solutions. Welcome to my Portfolio!
+        My journey from engineering to product management is driven by a desire to create intuitive & impactful solutions. Welcome to my Portfolio!
         </p>
       </Fade>
 

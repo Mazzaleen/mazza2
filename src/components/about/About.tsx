@@ -10,7 +10,6 @@ const About: FC = () => {
       <Slide direction="left" triggerOnce>
         <h2 className="section__title">About Me</h2>
       </Slide>
-      <span className="section__subtitle">My introduction </span>
 
       <div className="about__container container grid">
         <img
@@ -32,11 +31,11 @@ const About: FC = () => {
 </p>
 
 <p className="about__description">
-  📈 Led user experience design and data-driven research at JobPulse to optimize platform functionality 📈
+  📈 Led user experience design & data-driven research at JobPulse to optimize platform functionality 📈
 </p>
 
 <p className="about__description">
-  🍏 As a SWE at Apple, I drive the optimization of SiteWatch by leading cross-functional teams, enhancing feedback systems, and improving feedback processing efficiency. 🍏
+  🍏 As a SWE at Apple, I drive the optimization of SiteWatch by leading cross-functional teams, enhancing feedback systems, & improving feedback processing efficiency. 🍏
 </p>
 
 

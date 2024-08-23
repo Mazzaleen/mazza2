@@ -69,14 +69,14 @@ const Footer: React.FC = () => {
           >
             <i className="bx bxl-medium"></i>
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/amazzaleen"
             className="footer__social-link"
             target={"_blank"}
             rel="noreferrer"
           >
             <i className="bx bxl-twitter"></i>
-          </a>
+          </a> */}
         </div>
     <span className="footer__copy">
       &copy; {thisYear} Mazine <br />

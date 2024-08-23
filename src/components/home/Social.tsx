@@ -32,10 +32,10 @@ const Social: FC = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <i className="uil uil-medium"></i>
+          <i className="bx bxl-medium"></i>
         </a>
       </Fade>
-      <Fade direction="up" delay={300} triggerOnce>
+      {/* <Fade direction="up" delay={300} triggerOnce>
         <a
           href="https://twitter.com/amazzaleen"
           className="home_social-icon"
@@ -44,7 +44,7 @@ const Social: FC = () => {
         >
           <i className="uil uil-twitter-alt"></i>
         </a>
-      </Fade>
+      </Fade> */}
     </div>
   );
 };
