@@ -27,12 +27,12 @@ const Social: FC = () => {
 
       <Fade direction="up" delay={200} triggerOnce>
         <a
-          href="https://www.instagram.com/dalziet/"
+          href="https://medium.com/@mazine_suliman"
           className="home_social-icon"
           target="_blank"
           rel="noreferrer"
         >
-          <i className="uil uil-instagram"></i>
+          <i className="uil uil-medium"></i>
         </a>
       </Fade>
       <Fade direction="up" delay={300} triggerOnce>

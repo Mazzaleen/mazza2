@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
-import FrontEnd from "./FrontEnd";
-import BackEnd from "./BackEnd";
+import FullStack from "./FullStack";
+import BackEnd from "./DatabaseandTools";
 import ProductManagement from "./ProductManagement"; // Make sure this import path is correct
 import { Slide } from "react-awesome-reveal";
 
@@ -16,14 +16,15 @@ const Skills: React.FC = () => {
       </Slide>
       <div className="skills__container container grid">
         <Slide direction="left" triggerOnce>
-          <FrontEnd />
-        </Slide>
-        <Slide direction="left" triggerOnce>
-          <BackEnd />
+          <FullStack />
         </Slide>
         <Slide direction="left" triggerOnce>
           <ProductManagement />
         </Slide>
+        <Slide direction="left" triggerOnce>
+          <BackEnd />
+        </Slide>
+
       </div>
     </section>
   );

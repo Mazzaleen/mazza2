@@ -63,10 +63,9 @@ const Data: FC = () => {
       </Fade>
       <Fade delay={300} triggerOnce>
         <p className="home__description">
-        Welcome! My name is Mazine Sami Mohammed Ahmed Suliman and I am a senior at 
-        Brown studying Computer Science and Economics. 
-        I am first-generation Sudanese-American, originally from Khartoum, Sudan.
-        In my spare time, I love to watch soccer, sample perfumes, and watch video-game speedruns. 
+        Hi! I'm Mazine, a Software Engineer at Apple with a deep passion for product management.
+        From optimizing customer feedback systems at Apple to leading cross-functional teams as a Product Manager at FSB, I strive to solve the heart of user-centered problems.
+        My journey from engineering to product management is driven by a desire to create intuitive and impactful solutions. Welcome to my Portfolio!
         </p>
       </Fade>
 

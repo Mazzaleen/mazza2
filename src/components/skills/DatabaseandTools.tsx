@@ -1,15 +1,16 @@
 import React from "react";
 
-const ProductManagement: React.FC = () => {
+const BackEnd: React.FC = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Product Management & Design</h3>
+      <h3 className="skills__title">Database Management</h3>
       <div className="skills__box">
         <div className="skills__group">
+
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Balsamiq</h3>
+              <h3 className="skills__name">PostgresSQL</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
@@ -17,7 +18,7 @@ const ProductManagement: React.FC = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Figma</h3>
+              <h3 className="skills__name">Kubernetes</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
@@ -25,32 +26,31 @@ const ProductManagement: React.FC = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Confluence</h3>
+              <h3 className="skills__name">Splunk</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
-        </div>
-
-        <div className="skills__group">
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Jira</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
 
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Google Analytics</h3>
+              <h3 className="skills__name">AWS</h3>
               <span className="skills__level">Beginner</span>
             </div>
           </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Tableau</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          {/* ... (Include any other skills as needed) ... */}
         </div>
       </div>
     </div>
   );
 };
 
-export default ProductManagement;
+export default BackEnd;

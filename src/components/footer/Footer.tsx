@@ -62,12 +62,12 @@ const Footer: React.FC = () => {
             <i className="bx bxl-github"></i>
           </a>
           <a
-            href="https://www.instagram.com/dalziet/"
+            href="https://medium.com/@mazine_suliman"
             className="footer__social-link"
             target={"_blank"}
             rel="noreferrer"
           >
-            <i className="bx bxl-instagram"></i>
+            <i className="bx bxl-medium"></i>
           </a>
           <a
             href="https://twitter.com/amazzaleen"
@@ -78,9 +78,10 @@ const Footer: React.FC = () => {
             <i className="bx bxl-twitter"></i>
           </a>
         </div>
-        <span className="footer__copy">
-          &#169; Copyright {"  "} {thisYear}. {"  "}All rigths reserved
-        </span>
+    <span className="footer__copy">
+      &copy; {thisYear} Mazine <br />
+          Crafted with code, a touch of salt, and a love for 🐧
+    </span>
       </div>
     </footer>
   );
