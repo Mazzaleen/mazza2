@@ -27,15 +27,15 @@ const Social: FC = () => {
 
       <Fade direction="up" delay={200} triggerOnce>
         <a
-          href="https://www.instagram.com/dalziet/"
+          href="https://medium.com/@mazine_suliman"
           className="home_social-icon"
           target="_blank"
           rel="noreferrer"
         >
-          <i className="uil uil-instagram"></i>
+          <i className="bx bxl-medium"></i>
         </a>
       </Fade>
-      <Fade direction="up" delay={300} triggerOnce>
+      {/* <Fade direction="up" delay={300} triggerOnce>
         <a
           href="https://twitter.com/amazzaleen"
           className="home_social-icon"
@@ -44,7 +44,7 @@ const Social: FC = () => {
         >
           <i className="uil uil-twitter-alt"></i>
         </a>
-      </Fade>
+      </Fade> */}
     </div>
   );
 };

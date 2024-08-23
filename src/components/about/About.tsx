@@ -10,7 +10,6 @@ const About: FC = () => {
       <Slide direction="left" triggerOnce>
         <h2 className="section__title">About Me</h2>
       </Slide>
-      <span className="section__subtitle">My introduction </span>
 
       <div className="about__container container grid">
         <img
@@ -22,26 +21,26 @@ const About: FC = () => {
           <div className="about__data">
             <Info />
             <Fade direction="right" triggerOnce>
-              <p className="about__description">
-              🎓 Graduated from Brown University with a Bachelor of Science in Computer Science and Economics (Professional Track) 🎓
-              </p>
+
+<p className="about__description">
+  🎓 Brown University B.S. in Computer Science & Economics 🎓
+</p>
+
+<p className="about__description">
+  💼 Enhanced customer data analysis at Salesforce's Marketing Cloud with an anomaly detection system 💼
+</p>
+
+<p className="about__description">
+  📈 Led user experience design & data-driven research at JobPulse to optimize platform functionality 📈
+</p>
+
+<p className="about__description">
+  🍏 As a SWE at Apple, I drive the optimization of SiteWatch by leading cross-functional teams, enhancing feedback systems, & improving feedback processing efficiency. 🍏
+</p>
 
 
-              <p className="about__description">
-              💼 Previously interned at Salesforce as a Software Engineer Intern, working on the Marketing Cloud (Calculated Insights) team💼
-              </p>
-
-              <p className="about__description">
-              🚀 Prior to that completed IBM's Software Accelerate Program and worked as a web developer for the environmental council of Rhode Island🚀
-              </p>
-
-
-
-              <p className="about__description">
-              🍏 Currently working as a Software Engineer at Apple. Working on the bugs behind the bugs! 🍏
-              </p>
             </Fade>
-            <a href= "https://docs.google.com/document/d/1j_7sPFPNJxI-GZs7f7adVEc09l9WN6L1/edit" target="_blank" className="button button--flex">
+            <a href= "https://docs.google.com/document/d/1aCJg10EWGFqgsyHWGXjHUi06xXAD8VJy/edit?usp=sharing&ouid=116067273422919291186&rtpof=true&sd=true" target="_blank" className="button button--flex">
               See My Most Recent Resume!
               {"  "}
               <svg

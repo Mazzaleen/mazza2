@@ -30,15 +30,21 @@ const Qualification: React.FC = () => {
   const experienceItems = showMoreExperience ? positionData : positionData.sort((a, b) => b.id - a.id).slice(0, 3);
   return (
     <section className="qualification section" id="qualification">
-      
+
       <Slide direction="left" triggerOnce>
         <h2 className="section__title">Education & Experience</h2>
       </Slide>
 
       <Slide direction="right" triggerOnce>
-        <span className="section__subtitle">A Condensed Timeline of my Academic and Professional Career ( See <a href="https://www.linkedin.com/in/mazine-s-suliman/">Linkedin</a> for more!)</span>
-      </Slide>
-      
+  <span className="section__subtitle">
+    Condensed Career Timeline
+    ( <a href="https://www.linkedin.com/in/mazine-s-suliman/" target="_blank" rel="noopener noreferrer">
+      <i className="bx bxl-linkedin"></i> for more specifics
+    </a> )
+  </span>
+</Slide>
+
+
       <div className="qualification__container container">
         {/* START BUTTON */}
         <div className="qualification__tabs">
@@ -67,7 +73,7 @@ const Qualification: React.FC = () => {
         </div>
         {/* END BUTTON */}
 
-     
+
         <Slide direction="left" triggerOnce>
 
           {/* Content 1 */}
@@ -77,7 +83,7 @@ const Qualification: React.FC = () => {
             <div className="job" key={ed?.id}>
             <h2>{ed?.school} - {ed?.degree}</h2>
             <h3>{ed?.grade}</h3>
-       
+
             <img src={ed?.image} alt="" className="job_companyLogo"  />
             <h4>{ed?.location[0]}, {ed?.location[1]}</h4>
 
@@ -88,20 +94,20 @@ const Qualification: React.FC = () => {
             </div>
             ))}
 
-  <button className={`qualification__button ${showMoreEducation ? 'qualification__button--inverse' : ''}`} onClick={handleShowMoreEducation}>
+  {/* <button className={`qualification__button ${showMoreEducation ? 'qualification__button--inverse' : ''}`} onClick={handleShowMoreEducation}>
   {showMoreEducation ? 'Show less' : 'Show more education history'}
-</button>
+</button> */}
 
             </div>
 
-          
+
           )}
-         
 
-    
 
-          
-          
+
+
+
+
         {/* Content 2 */}
         {toggleModal === 2 && (
         <div className="jobs_timeline_container">
@@ -110,10 +116,10 @@ const Qualification: React.FC = () => {
             <div className="job" key={job.id}>
             <h2>{job?.company}</h2>
             <h3>{job?.position_title}</h3>
-            <img 
-            src={job?.image} 
+            <img
+            src={job?.image}
             alt=""
-             className="job_companyLogo" 
+             className="job_companyLogo"
              onClick={() => window.open(job?.website, "_blank") }/>
             <div className="job_date_beforeLine">{job?.dates[0]}</div>
             <div className="job_date_afterLine">{`${job?.dates[0]} - ${job?.dates[1]}`}</div>
@@ -139,6 +145,6 @@ const Qualification: React.FC = () => {
       </div>
     </section>
   );
-};  
+};
 
 export default Qualification;
