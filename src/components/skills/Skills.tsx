@@ -87,7 +87,35 @@ const Skills: React.FC = () => {
 
   return (
     <section className="skills section" id="skills">
-      <div className="container">
+      {/* Skills rain background behind title */}
+      <div className="skills__background-container">
+        {columnArrays.map((columnIcons, colIndex) => {
+          const isReverse = colIndex % 2 === 1;
+          const animationDuration = 20 - (colIndex * 0.5);
+          
+          return (
+            <div
+              key={`bg-${colIndex}`}
+              className={`skills__column ${isReverse ? 'skills__column--reverse' : ''}`}
+              style={{
+                '--animation-duration': `${animationDuration}s`
+              } as React.CSSProperties}
+            >
+              <div className="skills__column-track">
+                {[...columnIcons, ...columnIcons].map((tech, index) => (
+                  <div key={`bg-${tech.name}-${index}`} className="skills__icon-slide">
+                    <div className="skills__icon-wrapper">
+                      <img src={tech.icon} alt={tech.name} className="skills__icon" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <Slide direction="left" triggerOnce>
           <h2 className="section__title">Skills</h2>
         </Slide>
