@@ -13,24 +13,12 @@ export const listNavBar: TypeNavbar[] = [
   },
   {
     id: 2,
-    item: "About",
-    icon: "uil uil-user",
-    href: "about",
-  },
-  {
-    id: 3,
     item: "Skills",
     icon: "uil uil-file-alt",
     href: "skills",
   },
   {
-    id: 4,
-    item: "Qualifications",
-    icon: "uil uil-graduation-cap",
-    href: "qualification",
-  },
-  {
-    id: 5,
+    id: 3,
     item: "Projects",
     icon: "uil uil-briefcase-alt",
     href: "projects",

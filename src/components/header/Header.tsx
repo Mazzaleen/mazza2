@@ -34,10 +34,6 @@ const Header: FC = () => {
         >
           <img src={require("../assets/mazine_icon.png")} alt="logo" />
         </a>
-        <a href="https://mazzaleen.github.io/mazza2/" className="nav__logo">
-          Mazine Suliman
-        </a>
-
         <div className={Toogle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             {listNavBar.map(({ id, item, icon, href }) => {

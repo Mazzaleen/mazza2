@@ -6,7 +6,7 @@ const Data: FC = () => {
     <div className="home__data">
       <Rotate triggerOnce>
         <h1 className="home__title">
-          Mazine  Suliman
+          Hi, I'm Mazine
           <svg
             width="36"
             height="36"
@@ -63,9 +63,9 @@ const Data: FC = () => {
       </Fade>
       <Fade delay={300} triggerOnce>
         <p className="home__description">
-        Hi! I'm Mazine, a Software Engineer at Apple with a deep passion for product management.
-        From optimizing customer feedback systems at Apple to leading cross-functional teams as a Product Manager at FSB, I strive to solve the heart of user-centered problems.
-        My journey from engineering to product management is driven by a desire to create intuitive & impactful solutions. Welcome to my Portfolio!
+          I'm a Software Engineer at Apple's Customer Feedback Engineering Team, building safe, reliable, and scalable systems that process millions of customer insights daily.
+          My journey spans from architecting feedback pipelines at Apple to leading cross-functional teams as a Product Manager at FSB—always focused on solving user-centered challenges.
+          I bridge engineering and product thinking to create intuitive, impactful solutions. Welcome to my portfolio!
         </p>
       </Fade>
 

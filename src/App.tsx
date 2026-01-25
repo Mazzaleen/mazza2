@@ -3,9 +3,7 @@ import "./components/Style/App.css";
 import {
   Home,
   Header,
-  About,
   Skills,
-  Qualification,
   Projects,
   Contact,
   Footer,
@@ -32,9 +30,7 @@ const App: React.FC = () => {
         <Header />
         <main className="main">
           <Home />
-          <About />
           <Skills />
-          <Qualification />
           <Projects />
         </main>
         <Footer />
