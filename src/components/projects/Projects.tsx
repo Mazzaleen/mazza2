@@ -22,9 +22,7 @@ const Projects: React.FC = () => {
         <h2 className="section__title">Projects</h2>
       </Slide>
       <Slide direction="right" triggerOnce>
-        <span className="section__subtitle">
-          A curated collection of my Academic & Personal Projects in engineering & product
-        </span>
+        <span className="section__subtitle"></span>
       </Slide>
 
       {/* First Swiper instance for the first row */}

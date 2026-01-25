@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
         <h2 className="section__title">Skills</h2>
       </Slide>
       <Slide direction="right" triggerOnce>
-        <span className="section__subtitle">A qualitative description of my technical level across Software Engineering and Product Management</span>
+        <span className="section__subtitle"></span>
       </Slide>
       <div className="skills__container container grid">
         <Slide direction="left" triggerOnce>
