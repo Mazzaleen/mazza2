@@ -98,7 +98,7 @@ const Contact: React.FC = () => {
                   <h3 className="conact__card-title">Phone (Sudan)</h3>
                   <span className="contact__card-data">+249 122-0240</span>
                   <a
-                    href="https://www.linkedin.com/in/mazine-s-suliman/"
+                    href="https://www.linkedin.com/in/mazines/"
                     className="contact__button"
                     target="_blank"
                     rel="noreferrer"

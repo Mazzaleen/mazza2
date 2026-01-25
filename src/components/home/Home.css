@@ -128,6 +128,12 @@
 .home__description {
   min-width: 400px;
   margin-bottom: var(--mb-3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .home__img {
   background: url(../assets/mazine_anime.jpg);
@@ -249,5 +255,142 @@
   .home__hand {
     width: 22px;
     height: 22px;
+  }
+}
+
+
+/* Skills background in home section */
+.home__skills-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  filter: blur(2px);
+  opacity: 0.3;
+  transition: opacity 0.3s ease-out;
+}
+
+.home__skills-column {
+  width: 120px;
+  height: 100%;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.home__skills-track {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  animation: scroll-down var(--animation-duration, 20s) linear infinite;
+  will-change: transform;
+}
+
+.home__skills-column--reverse .home__skills-track {
+  animation: scroll-up var(--animation-duration, 20s) linear infinite;
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.home__skills-icon-slide {
+  height: auto;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.home__skills-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  width: 100px;
+  opacity: 0.6;
+}
+
+.home__skills-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* Responsive adjustments for skills background */
+@media screen and (max-width: 992px) {
+  .home__skills-column {
+    width: 100px;
+  }
+  
+  .home__skills-icon-slide {
+    width: 100px;
+  }
+  
+  .home__skills-icon-wrapper {
+    width: 85px;
+    padding: 0.75rem;
+  }
+  
+  .home__skills-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__skills-background {
+    filter: blur(3px);
+    opacity: 0.2;
+  }
+  
+  .home__skills-column {
+    width: 80px;
+  }
+  
+  .home__skills-icon-slide {
+    width: 80px;
+  }
+  
+  .home__skills-icon-wrapper {
+    width: 70px;
+    padding: 0.5rem;
+  }
+  
+  .home__skills-icon {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home__skills-background {
+    display: none;
   }
 }

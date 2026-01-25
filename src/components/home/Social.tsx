@@ -6,7 +6,7 @@ const Social: FC = () => {
     <div className="home__social">
       <Fade direction="up" triggerOnce>
         <a
-          href="https://www.linkedin.com/in/mazine-s-suliman"
+          href="https://www.linkedin.com/in/mazines"
           className="home_social-icon"
           target="_blank"
           rel="noreferrer"

@@ -38,7 +38,7 @@ const Qualification: React.FC = () => {
       <Slide direction="right" triggerOnce>
   <span className="section__subtitle">
     Condensed Career Timeline
-    ( <a href="https://www.linkedin.com/in/mazine-s-suliman/" target="_blank" rel="noopener noreferrer">
+    ( <a href="https://www.linkedin.com/in/mazines/" target="_blank" rel="noopener noreferrer">
       <i className="bx bxl-linkedin"></i> for more specifics
     </a> )
   </span>

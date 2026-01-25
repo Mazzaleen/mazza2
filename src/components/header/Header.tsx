@@ -27,7 +27,7 @@ const Header: FC = () => {
     <header className="header">
       <nav className="nav container">
         <a
-          href="https://www.linkedin.com/in/mazine-s-suliman/"
+          href="https://www.linkedin.com/in/mazines/"
           target="_blank"
           rel="noreferrer"
           className="nav__logo-img"

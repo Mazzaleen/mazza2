@@ -55,6 +55,12 @@ const techStack: TechIcon[] = [
   // Mobile
   { name: "Swift", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg", url: "https://www.swift.org/" },
   
+  // AI & LLMs
+  { name: "Claude", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Claude_AI_symbol.svg/1280px-Claude_AI_symbol.svg.png", url: "https://www.anthropic.com/claude" },
+  { name: "ChatGPT", icon: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg", url: "https://openai.com/chatgpt" },
+  { name: "OpenAI", icon: "https://cdn.worldvectorlogo.com/logos/openai-2.svg", url: "https://openai.com/" },
+  { name: "Hugging Face", icon: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg", url: "https://huggingface.co/" },
+  
   // Product Management
   { name: "Balsamiq", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1mMGLpZ6G7qOmlYTaVWw-qBAMAJkwmHMhwg&s", url: "https://balsamiq.com/" },
   { name: "Figma", icon: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg", url: "https://www.figma.com/" },
