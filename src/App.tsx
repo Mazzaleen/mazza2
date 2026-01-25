@@ -6,8 +6,6 @@ import {
   Skills,
   Projects,
   Contact,
-  Footer,
-  ScrollUp,
   contextDarkMod,
 } from "./components";
 
@@ -33,8 +31,6 @@ const App: React.FC = () => {
           <Skills />
           <Projects />
         </main>
-        <Footer />
-        <ScrollUp />
       </div>
     </contextDarkMod.Provider>
   );

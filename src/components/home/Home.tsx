@@ -2,7 +2,6 @@ import { FC, useContext, useEffect } from "react";
 import "./Home.css";
 import Social from "./Social";
 import Data from "./Data";
-import ScrollDowm from "./ScrollDowm";
 import contextDarkMod from "../context/contextDarkMod";
 const Home: FC = () => {
   const { IsdarkMode } = useContext(contextDarkMod);
@@ -23,7 +22,6 @@ const Home: FC = () => {
           <div className="home__img"></div>
           <Data />
         </div>
-        <ScrollDowm />
       </div>
     </section>
   );
