@@ -1,12 +1,6 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay, FreeMode } from "swiper";
 import { Slide } from "react-awesome-reveal";
-import "swiper/css";
-import "swiper/css/free-mode";
 import "./Skills.css";
-
-SwiperCore.use([Autoplay, FreeMode]);
 
 interface TechIcon {
   name: string;
@@ -62,7 +56,7 @@ const techStack: TechIcon[] = [
   { name: "Swift", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg", url: "https://www.swift.org/" },
   
   // Product Management
-  { name: "Balsamiq", icon: "https://cdn.worldvectorlogo.com/logos/balsamiq-1.svg", url: "https://balsamiq.com/" },
+  { name: "Balsamiq", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1mMGLpZ6G7qOmlYTaVWw-qBAMAJkwmHMhwg&s", url: "https://balsamiq.com/" },
   { name: "Figma", icon: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg", url: "https://www.figma.com/" },
   { name: "Jira", icon: "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg", url: "https://www.atlassian.com/software/jira" },
   { name: "Trello", icon: "https://www.vectorlogo.zone/logos/trello/trello-icon.svg", url: "https://trello.com/" },
@@ -97,44 +91,41 @@ const Skills: React.FC = () => {
       </div>
 
       <div className="skills__rain-container">
-        {columnArrays.map((columnIcons, colIndex) => (
-          <Swiper
-            key={colIndex}
-            className="skills__column"
-            direction="vertical"
-            loop={true}
-            allowTouchMove={false}
-            freeMode={{
-              enabled: true,
-              momentum: false,
-            }}
-            autoplay={{
-              delay: 0,
-              disableOnInteraction: false,
-              pauseOnMouseEnter: false,
-              reverseDirection: colIndex % 2 === 1, // Alternate direction for variety
-            }}
-            speed={8000 + (colIndex * 1000)} // Vary speed slightly per column
-            slidesPerView="auto"
-            spaceBetween={30}
-            modules={[Autoplay, FreeMode]}
-          >
-            {columnIcons.map((tech, index) => (
-              <SwiperSlide key={`${tech.name}-${index}`} className="skills__icon-slide">
-                <a
-                  href={tech.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="skills__icon-wrapper"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <img src={tech.icon} alt={tech.name} className="skills__icon" />
-                  <span className="skills__icon-name">{tech.name}</span>
-                </a>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        ))}
+        {columnArrays.map((columnIcons, colIndex) => {
+          const isReverse = colIndex % 2 === 1;
+          const animationDuration = 20 - (colIndex * 0.5); // Faster base speed (30% faster than before)
+          
+          return (
+            <div
+              key={colIndex}
+              className={`skills__column ${isReverse ? 'skills__column--reverse' : ''}`}
+              style={{
+                '--animation-duration': `${animationDuration}s`
+              } as React.CSSProperties}
+            >
+              <div className="skills__column-track">
+                {/* Render items twice for seamless loop */}
+                {[...columnIcons, ...columnIcons].map((tech, index) => (
+                  <div key={`${tech.name}-${index}`} className="skills__icon-slide">
+                    <a
+                      href={tech.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="skills__icon-wrapper"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        window.open(tech.url, '_blank', 'noopener,noreferrer');
+                      }}
+                    >
+                      <img src={tech.icon} alt={tech.name} className="skills__icon" />
+                      <span className="skills__icon-name">{tech.name}</span>
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
