@@ -75,8 +75,14 @@
 
 .home__social {
   display: grid;
-  grid-template-columns: max-content;
+  grid-template-columns: min-width;
   row-gap: 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .home_social-icon {
   font-size: 1.25rem;
@@ -348,16 +354,16 @@
   .home__skills-column {
     width: 100px;
   }
-  
+
   .home__skills-icon-slide {
     width: 100px;
   }
-  
+
   .home__skills-icon-wrapper {
     width: 85px;
     padding: 0.75rem;
   }
-  
+
   .home__skills-icon {
     width: 40px;
     height: 40px;
@@ -369,20 +375,20 @@
     filter: blur(3px);
     opacity: 0.2;
   }
-  
+
   .home__skills-column {
     width: 80px;
   }
-  
+
   .home__skills-icon-slide {
     width: 80px;
   }
-  
+
   .home__skills-icon-wrapper {
     width: 70px;
     padding: 0.5rem;
   }
-  
+
   .home__skills-icon {
     width: 35px;
     height: 35px;
