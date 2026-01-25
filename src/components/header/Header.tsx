@@ -32,7 +32,7 @@ const Header: FC = () => {
           rel="noreferrer"
           className="nav__logo-img"
         >
-          <img src={require("../assets/favi.png")} alt="logo" />
+          <img src={require("../assets/mazine_icon.png")} alt="logo" />
         </a>
         <a href="https://mazzaleen.github.io/mazza2/" className="nav__logo">
           Mazine Suliman

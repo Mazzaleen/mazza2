@@ -13,7 +13,7 @@ const About: FC = () => {
 
       <div className="about__container container grid">
         <img
-          src={require("../assets/IMG_6996.png")}
+          src={require("../assets/mazine_peace_sign.png")}
           alt="about img"
           className="about__img"
         />{" "}
