@@ -19,6 +19,11 @@
   text-align: center;
   transition: 0.3s;
 }
+.projects__img-link {
+  display: block;
+  cursor: pointer;
+}
+
 .projects__img {
   border-radius: 0.2rem;
   margin-bottom: var(--mb-1);

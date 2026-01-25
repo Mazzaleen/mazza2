@@ -51,7 +51,13 @@ const Projects: React.FC = () => {
           ({ id, title, description, image, GitHub, hosted }) => (
             <SwiperSlide className='projects__card' key={id}>
               <h3 className='projects__name'>{title}</h3>
-              <img src={image} alt='img' className='projects__img' />
+              <a
+                href={`mailto:mazine+alumni.brown.edu?subject=request to schedule demo- ${title}`}
+                onClick={(e) => e.stopPropagation()}
+                className='projects__img-link'
+              >
+                <img src={image} alt='img' className='projects__img' />
+              </a>
               <div className='projects__description'>{description}</div>
               <div>
                 <a
@@ -97,7 +103,13 @@ const Projects: React.FC = () => {
           ({ id, title, description, image, GitHub, hosted }) => (
             <SwiperSlide className='projects__card' key={id}>
               <h3 className='projects__name'>{title}</h3>
-              <img src={image} alt='img' className='projects__img' />
+              <a
+                href={`mailto:mazine+alumni.brown.edu?subject=request to schedule demo- ${title}`}
+                onClick={(e) => e.stopPropagation()}
+                className='projects__img-link'
+              >
+                <img src={image} alt='img' className='projects__img' />
+              </a>
               <div className='projects__description'>{description}</div>
               <div>
                 <a
