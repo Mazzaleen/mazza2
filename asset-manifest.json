@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/mazza2/static/css/main.83cdcc99.css",
-    "main.js": "/mazza2/static/js/main.c66d1c67.js",
-    "static/media/IMG_6996.png": "/mazza2/static/media/IMG_6996.a3bce1e1b98008285c22.png",
-    "static/media/happy-sun.png": "/mazza2/static/media/happy-sun.80bc60b8209097627fc3.png",
+    "main.css": "/mazza2/static/css/main.9d42e32d.css",
+    "main.js": "/mazza2/static/js/main.d58a832e.js",
+    "static/media/mazine_peace_sign.png": "/mazza2/static/media/mazine_peace_sign.f7bb1518aa89ec89a67e.png",
+    "static/media/mazine_anime.jpg": "/mazza2/static/media/mazine_anime.57cc623d6644b0863345.jpg",
+    "static/media/mazine_icon.png": "/mazza2/static/media/mazine_icon.3749656531a2eba47ab9.png",
     "index.html": "/mazza2/index.html",
-    "main.83cdcc99.css.map": "/mazza2/static/css/main.83cdcc99.css.map",
-    "main.c66d1c67.js.map": "/mazza2/static/js/main.c66d1c67.js.map"
+    "main.9d42e32d.css.map": "/mazza2/static/css/main.9d42e32d.css.map",
+    "main.d58a832e.js.map": "/mazza2/static/js/main.d58a832e.js.map"
   },
   "entrypoints": [
-    "static/css/main.83cdcc99.css",
-    "static/js/main.c66d1c67.js"
+    "static/css/main.9d42e32d.css",
+    "static/js/main.d58a832e.js"
   ]
 }
