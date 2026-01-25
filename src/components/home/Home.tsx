@@ -16,6 +16,13 @@ const Home: FC = () => {
 
   return (
     <section className="home section" id="home">
+      <div className="home__animated-blobs">
+        <div className="home__blob home__blob--1"></div>
+        <div className="home__blob home__blob--2"></div>
+        <div className="home__blob home__blob--3"></div>
+        <div className="home__blob home__blob--4"></div>
+        <div className="home__blob home__blob--5"></div>
+      </div>
       <div className="home__container container grid">
         <div className="home__content grid">
           <Social />

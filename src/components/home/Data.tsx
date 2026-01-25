@@ -70,8 +70,8 @@ const Data: FC = () => {
       </Fade>
 
       <Fade delay={600} triggerOnce>
-        <a href="https://www.linkedin.com/in/mazine-s-suliman/" className="button button--flex">
-          Say Hi!
+        <a href="mailto:mazine+portfolio@alumni.brown.edu?subject=Resume Request" className="button button--flex">
+          See My Most Recent Resume
           {"  "}
           <svg
             className="button__icon"
