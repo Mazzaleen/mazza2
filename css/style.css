@@ -1,0 +1,402 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../assets/fonts/JetBrainsMono-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../assets/fonts/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #1e1e1e;
+  --fg: #d4d4d4;
+  --muted: #6a737d;
+  --accent: #569cd6;
+  --accent-hover: #4ec9b0;
+  --border: #2d2d2d;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.rule {
+  border: none;
+  border-top: 1px solid var(--border);
+  width: 100%;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+.topbar-rule {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.home-link {
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.15s ease;
+}
+
+.home-link:hover {
+  color: var(--accent);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  stroke: none;
+  display: block;
+}
+
+/* Stroke-based icons (Lucide) declare fill="none" on the root — restore their outline style. */
+.icon[fill="none"] {
+  fill: none;
+  stroke: currentColor;
+}
+
+/* Flags carry their own real colors per path — don't force the monochrome theme onto them. */
+.icon.flag {
+  fill: unset;
+  stroke: unset;
+  border-radius: 2px;
+}
+
+/* Fallback if inlining fails (fetch blocked, JS off): brighten the raw <img> so it's visible on dark bg. */
+img.icon:not(.flag) {
+  filter: invert(88%);
+}
+
+main {
+  flex: 1;
+  padding: 48px 0;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+/* Home page */
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  color: var(--fg);
+}
+
+.tagline {
+  color: var(--muted);
+  margin: 0 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.location {
+  color: var(--muted);
+  margin: 0 0 40px;
+}
+
+.tagline .icon {
+  width: 16px;
+  height: 16px;
+}
+
+.social-row {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.social-row a {
+  color: var(--muted);
+  transition: color 0.15s ease;
+}
+
+.social-row a:hover {
+  color: var(--accent);
+}
+
+.social-row .disabled {
+  color: var(--border);
+  cursor: default;
+}
+
+.social-row .icon {
+  width: 22px;
+  height: 22px;
+}
+
+nav.main-nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  color: var(--muted);
+}
+
+nav.main-nav a {
+  color: var(--muted);
+  transition: color 0.15s ease;
+}
+
+nav.main-nav a:hover,
+nav.main-nav a.active {
+  color: var(--accent);
+}
+
+nav.main-nav .sep {
+  color: var(--border);
+}
+
+/* Sub pages */
+h1.page-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--fg);
+  margin: 0 0 40px;
+}
+
+/* Skills page */
+.skill-group {
+  margin-bottom: 36px;
+}
+
+.skill-group h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 16px;
+}
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-icons .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 64px;
+  text-align: center;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.skill-icons .skill:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.skill-icons .icon {
+  width: 28px;
+  height: 28px;
+  color: var(--fg);
+}
+
+/* Some brand marks are near-black and vanish on our dark bg — give them a light backdrop. */
+.dark-logo {
+  background: var(--fg);
+  border-radius: 6px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+/* Wide wordmark logos (e.g. IBM) need a wider box instead of a square. */
+.wordmark {
+  width: 48px !important;
+  height: 20px !important;
+  object-fit: contain;
+}
+
+.skill-icons img[src$=".png"] {
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.exp-entry img[src$=".png"] {
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.skill-icons .skill span {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.skill-group-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.skill-group-header h2 {
+  margin: 0;
+}
+
+.lang-note {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 0;
+}
+
+.lang-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: var(--fg);
+}
+
+.lang-row .lang-flag {
+  display: flex;
+  justify-content: center;
+  width: 64px;
+}
+
+.lang-row .icon.flag {
+  width: 28px;
+  height: 28px;
+}
+
+
+/* Experience page */
+.exp-entry {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+  align-items: flex-start;
+}
+
+.exp-entry > div {
+  flex: 1;
+}
+
+.exp-entry .icon,
+.exp-entry img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  color: var(--fg);
+  margin-top: 2px;
+}
+
+.exp-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.exp-entry .exp-role {
+  font-weight: 700;
+  color: var(--fg);
+  margin: 0;
+}
+
+.exp-dates {
+  color: var(--muted);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.exp-location {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 4px 0 10px;
+}
+
+.exp-entry .exp-desc {
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Placeholder pages */
+.placeholder {
+  color: var(--muted);
+}
+
+.placeholder a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.placeholder a:hover {
+  color: var(--accent-hover);
+}
+
+.email-btn {
+  display: inline-block;
+  color: var(--accent);
+  border: 1px solid var(--border);
+  padding: 10px 18px;
+  border-radius: 4px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.email-btn:hover {
+  color: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
