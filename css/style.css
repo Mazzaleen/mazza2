@@ -323,11 +323,43 @@ h1.page-title {
 
 
 /* Experience page */
+.exp-timeline {
+  position: relative;
+  padding-left: 24px;
+}
+
+.exp-timeline::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  left: 8px;
+  width: 2px;
+  background: var(--border);
+}
+
 .exp-entry {
   display: flex;
   gap: 16px;
   margin-bottom: 32px;
   align-items: flex-start;
+  position: relative;
+}
+
+.exp-dot {
+  position: absolute;
+  left: -20px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--muted);
+  border: 2px solid var(--bg);
+}
+
+.exp-dot--present {
+  background: #d4af37;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.25);
 }
 
 .exp-entry > div {
