@@ -266,8 +266,8 @@ h1.page-title {
 
 /* Wide wordmark logos (e.g. IBM) need a wider box instead of a square. */
 .wordmark {
-  width: 48px !important;
-  height: 20px !important;
+  width: 32px !important;
+  height: auto !important;
   object-fit: contain;
 }
 
